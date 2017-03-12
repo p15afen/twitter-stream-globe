@@ -22,7 +22,7 @@ absolved	2
 absolves	2
 absolving	2
 απαλλάσσοντας 2
-
+//Afentoulis Kwnstantinos 2015021 cscw
 absorbed	1
 abuse	-3
 abused	-3
@@ -1223,6 +1223,7 @@ extends	1
 extremist	-2
 extremists	-2
 εξτρεμιστές
+//Afentoulis Kwnstantinos 2015021 cscw
 exuberant	4
 exultant	3
 exultantly	3
@@ -1260,7 +1261,7 @@ fan	3
 fantastic	4
 farce	-1
 φάρσα
-
+//Afentoulis Kwnstantinos 2015021 cscw
 fascinate	3
 fascinated	3
 fascinates	3
@@ -1611,7 +1612,7 @@ homesick	-2
 homicide	-2
 homicides	-2
 ανθρωποκτονίες
-
+//Afentoulis Kwnstantinos 2015021 cscw
 honest	2
 honor	2
 honored	2
@@ -1687,7 +1688,7 @@ impaired	-2
 impairing	-2
 impairment	-2
 βλάβη
-
+//Afentoulis Kwnstantinos 2015021 cscw
 impairs	-2
 impatient	-2
 impeachment	-3
@@ -2032,7 +2033,7 @@ lugubrious	-2
 lunatic	-3
 lunatics	-3
 τρελούς
-
+//Afentoulis Kwnstantinos 2015021 cscw
 lurk	-1
 lurking	-1
 lurks	-1
@@ -2260,6 +2261,7 @@ offline	-1
 oks	2
 ominous	3
 δυσοίωνος
+//Afentoulis Kwnstantinos 2015021 cscw
 once-in-a-lifetime	3
 oops	-2
 opportunities	2
