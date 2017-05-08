@@ -58,7 +58,7 @@
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/imMens-world_heatmap.png');
+	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/Physical features of World.jpg');
 
 	  var material = new THREE.ShaderMaterial({
 	    uniforms: uniforms,
