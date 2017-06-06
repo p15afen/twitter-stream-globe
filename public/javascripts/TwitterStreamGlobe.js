@@ -4,8 +4,8 @@
 
 	// Constants
 	POS_X = 0,
-	POS_Y = 800,
-	POS_Z = 2000,
+	POS_Y = 0,
+	POS_Z = 1700,
 	FOV = 45,
 	NEAR = 1,
 	FAR = 150000,
@@ -49,11 +49,11 @@
 	var earthMesh, beaconHolder;
 
 	/**
-	 *	Creates the Earth sphere
+	 *	Creates the Earth plane
 	 */
 	function addEarth () {
 
-	  var sphereGeometry = new THREE.SphereGeometry(600, 50, 50);
+	  var planeGeometry = new THREE.PlaneGeometry(1700, 600);
 
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
@@ -66,7 +66,7 @@
 	    fragmentShader: shader.fragmentShader
 	  });
 
-	  earthMesh = new THREE.Mesh(sphereGeometry, material);
+	  earthMesh = new THREE.Mesh(planeGeometry, material);
 	  scene.add(earthMesh);
 
 	  // add an empty container for the beacons to be added to
@@ -162,8 +162,6 @@
 	 * Runs on each animation frame
 	 */ 
 	function render () {
-
-		earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
 		
 	  renderer.autoClear = false;
 	  renderer.clear();
